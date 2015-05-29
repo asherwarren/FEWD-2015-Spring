@@ -133,6 +133,22 @@ ul {
 	margin-bottom: 10px;
 }
 
+ol a {
+	color: #222;
+}
+
+ol a:visited {
+	color: #222;
+}
+
+ol ol a {
+	color: #666;
+}
+
+ol ol a:visited {
+	color: #666;
+}
+
 blockquote {
 	width: 80%;
 	font-size: 20px;
