@@ -1,0 +1,182 @@
+*
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	width: 100%
+}
+
+body {
+	font-family: georgia;
+}
+
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 ,
+p {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: block;
+
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800
+}
+
+h1 {
+	font-size: 60px;
+	color: #222;
+	text-align: center;
+	margin-top: 80px;
+}
+
+h2 {
+	font-size: 36px;
+	margin-top: 50px;
+}
+
+h3 {
+	font-size: 28px;
+	margin-top: 50px;
+}
+
+h4 {
+	font-size: 20px;
+	text-align: center;
+	color: #999;
+	font-family: georgia;
+	font-weight: 200;
+	margin-bottom: 80px;
+}
+
+h5 {
+	font-size: 14px;
+	color: #666;
+}
+
+.aboriginals {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border: 1px solid #666;
+}
+
+.hut {
+	margin-left: 30px;
+	margin-right: auto;
+	margin-top: 0px;
+	display: block;
+	float: right;
+}
+
+
+nav {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px;
+	border-top: 2px solid #ccc;
+	border-bottom: 2px solid #ccc;
+}
+
+.navtitle {
+	width: 90%;
+	margin-top: 0px;
+}
+
+ol {
+	font-size: 20px;
+	color: #222;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+ol ol {
+	font-size: 16px;
+	color: #222;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+li {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	line-height: 24px
+}
+
+ul {
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 16px;
+	color: #222;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+blockquote {
+	width: 80%;
+	font-size: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	line-height: 40px;
+	font-style: italic;
+	background-color: #f6f6f6;
+	padding: 40px;
+	border-left: 10px solid #e3e3e3;
+}
+
+p {
+	color: #222;
+	font-size: 16px;
+	line-height: 32px;
+}
+
+figcaption {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: block;
+	font-family: open sans;
+	font-size: 14px;
+	color: #666;
+	font-weight: 300;
+	margin-bottom: 50px;
+}
+
+.huttext {
+	width: 70%;
+	margin-left: 0px;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: block;
+	font-family: open sans;
+	font-size: 14px;
+	color: #666;
+	font-weight: 300;
+	margin-bottom: 50px;
+}
