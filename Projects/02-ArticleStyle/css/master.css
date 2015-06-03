@@ -81,8 +81,11 @@ h5 {
 }
 
 .hut {
+	width: 100%;
+	max-width: 375px;
+	width: 40%;
 	margin-left: 30px;
-	margin-right: auto;
+	margin-right: 15%;
 	margin-top: 0px;
 	display: block;
 	float: right;
@@ -103,18 +106,21 @@ nav {
 	margin-top: 0px;
 }
 
+
 ol {
 	font-size: 20px;
-	color: #222;
+	color: #666;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
 ol ol {
+	list-style: none;
 	font-size: 16px;
 	color: #222;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	padding-left: 0px;
 }
 
 li {
@@ -170,10 +176,10 @@ p {
 }
 
 figcaption {
-	width: 70%;
+	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 20px;
+	margin-top: 10px;
 	margin-bottom: 20px;
 	display: block;
 	font-family: open sans;
@@ -184,10 +190,9 @@ figcaption {
 }
 
 .huttext {
-	width: 70%;
 	margin-left: 0px;
 	margin-right: auto;
-	margin-top: 20px;
+	margin-top: 10px;
 	margin-bottom: 20px;
 	display: block;
 	font-family: open sans;
