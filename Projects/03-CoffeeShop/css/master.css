@@ -1,0 +1,39 @@
+*
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	width: 100%
+}
+
+body {
+	font-family: lato;
+	padding: 0px;
+	margin: 0px;
+}
+
+h1 {
+	font-family: sanchez;
+	font-size: 60px;
+	color: #fff;
+}
+
+h2 {
+
+}
+
+h3 {
+	font-size: 22px;
+	color: #ccc;
+}
+
+header {
+	background-image: url(../images/header.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
