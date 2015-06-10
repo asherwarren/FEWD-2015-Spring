@@ -44,9 +44,8 @@ header {
 	background-image: url(../images/header.jpg);
 	background-position: top center;
 	background-repeat: no-repeat;
-	max-width: 2000px;
+	background-size: cover;
 	margin-bottom: 0px;
-	padding-bottom: 80px;
 	background-color: #AC8420;
 
 }
@@ -55,6 +54,7 @@ header {
 	width: 75%;
 	margin-left: auto;
 	margin-right: auto;
+	padding-bottom: 80px;
 }
 
 .large_logo {
@@ -75,11 +75,14 @@ header {
 	padding-bottom: 100px;
 }
 
+/* menu */
+
 table {
-	width: 70%;
+	width: 50%;
 	max-width: 700px;
 	margin-left: auto;
 	margin-right: auto;
+
 }
 
 caption {
@@ -95,8 +98,145 @@ tr {
 }
 
 td {
-	padding: 10px;
+	padding: 20px;
+	border-bottom: solid 2px #9B761C;
+	margin: 0px;
+}
+
+td:nth-child(even) {
+	color: #DECC9C;
+}
+
+.espressobar {
+	padding-top: 20px;
+}
+
+/* Hours and Location */
+
+.hourslocation {
+	display: block;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.interior {
+	float: right;
+	padding-left: 30px;
+	padding-bottom: 30px;
+}
+
+.specifics {
+	color: #666;
+	font-size: 16px;
+	line-height: 24px
+
+}
+
+.hourstitle {
+	color: #222;
+	font-family: sanchez;
+	font-size: 26px;
+}
+
+.directions {
+	margin-top: 50px;
+}
+
+.directions a {
+	color: #AC8420;
+	border: solid 2px;
+	width: 180px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
 }
 
 
+.directions a:visited {
+	color: #AC8420;
+}
+
+.directions a:link {
+	color: #AC8420;;
+	text-decoration: none;
+}
+
+.directions a:hover {
+	background-color: #AC8420;
+	background-size: cover;
+	color: white;
+}
+
+footer {
+	clear: both;
+	display: block;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	background-color: #222;
+}
+
+.info {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.social_links {
+	display: inline;
+}
+
+.bottom ul {
+	margin: 12px 0px 12px 0px;
+	font-size: 12px;
+	color: #fff;
+	font-family: lato;
+	font-weight: 300;
+	letter-spacing: 3px
+
+}
+
+.social_links a {
+	float: right;
+	color: white;
+	font-weight: 300;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 0px
+}
+
+.social_links a:link {
+	text-decoration: none;
+}
+
+.social_links a:hover {
+	color: #AC8420;
+}
+
+.subtext {
+	font-size: 12px;
+	color: #fff;
+	font-family: lato;
+	font-weight: 300;
+	letter-spacing: 3px
+}
+
+
+.bottom {
+	display: inline-block;
+	float: left;
+	width: 33%;
+	margin: 0px auto;
+
+}
+
+.bottom img {
+	display: block;
+	margin: auto;
+}
 
