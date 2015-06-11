@@ -172,6 +172,9 @@ td:nth-child(even) {
 	color: white;
 }
 
+
+/* Footer */
+
 footer {
 	clear: both;
 	display: block;
@@ -207,7 +210,7 @@ footer {
 	padding-top: 0px;
 	padding-right: 5px;
 	padding-left: 5px;
-	padding-bottom: 0px
+	padding-bottom: 0px;
 }
 
 .social_links a:link {
