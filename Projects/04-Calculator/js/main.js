@@ -55,6 +55,8 @@ function onEqualsPress(event) {
 	var result = eval(currentInput);
 
 	displayScreen.val(result);
+	currentInput = result;
+	digitInput = "";
 
 	console.log(currentInput);
 
