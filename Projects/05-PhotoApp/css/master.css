@@ -60,7 +60,7 @@ h1 {
 
 .intro_phone {
 	float: right;
-	height: 554;
+	height: 554px;
 }
 
 .intro_phone img {
@@ -131,6 +131,9 @@ p {
 	.intro_phone img {
 		display: none;
 	}
+	.subheader {
+		text-align: center;
+	}
 }
 
 /* Three Items */
@@ -140,11 +143,12 @@ p {
 	margin-bottom: 70px;
 }
 h3 {
-	font-family: Roboto Condensed;
+	font-family: "Roboto Condensed";
 	font-weight: 300;
 	font-size: 26px;
 	color: #e77e04;
 	margin-bottom: 10px;
+	margin-top: 0px;
 	text-align: center;
 }
 
@@ -187,7 +191,7 @@ h3 {
 /* thumbnail images */
 
 h4 {
-	font-family: roboto condensed;
+	font-family: "roboto condensed";
 	font-size: 36px;
 	font-weight: 300;
 	color: #2b3f4c;
@@ -231,7 +235,7 @@ h4 {
 }
 
 h5 {
-	font-family: roboto condensed;
+	font-family: "roboto condensed";
 	font-size: 42px;
 	font-weight: 300;
 	color: #e77e04;
@@ -279,10 +283,16 @@ h5 {
 }
 
 @media screen and (max-width: 739px){
+	.purchase {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
 	.download_devices {
 		width: 100%;
 		margin-top: 5px
 	}
+
 }
 
 /* legal */
@@ -296,8 +306,9 @@ h5 {
 	font-size: 14px;
 	font-weight: 300;
 	text-decoration: none;
-	margin-top: 25px;
+	margin-top: 10px;
 }
+
 
 .support, .privacy {
 	color: #2b3f4c;
@@ -328,4 +339,45 @@ h5 {
 .copyright .privacy a:link {
 	color: #2b3f4c;
 	text-decoration: none;
+}
+
+.social_links {
+	line-height: 0px;
+	text-decoration: none;
+	text-align: right;
+}
+
+.social {
+	background-color: black;
+	overflow: hidden;
+	text-indent: 200%;
+	white-space: nowrap;
+	height: 36px;
+	width: 38px;
+	display: inline-block;
+	border-radius: 6px;
+	background-image: url(../images/icon_sprite.png);
+	background-repeat: no-repeat;
+}
+
+.facebook {
+	background-position: -80px -2px;
+}
+
+.twitter {
+	background-position: -120px -2px;
+}
+
+.google_plus {
+	background-position: -160px -2px;
+}
+
+@media screen and (max-width: 739px){
+	.legal {
+		text-align: center;
+		margin-top: 0px;
+	}
+	.social_links {
+		text-align: center;
+	}
 }

@@ -13,6 +13,7 @@
 		<link href="css/normalize.css" rel="stylesheet">
 		<link href="css/master.css" rel="stylesheet" media="all">
 		<link href="css/grid.css" rel="stylesheet">
+		<link href="css/carousel.css" rel="stylesheet">
 
 
 	</head>
@@ -31,10 +32,10 @@
 					<p class="niceshottext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
 					<div><a class="download_button" href="#">Download Now</a></div>
 				</div>
-				<div class="cell_containter fs-cell fs-lg-6">
-					<div class="intro_phone"><img src="images/intro_phone.png" alt="phone screen">
-					</div>
-				</div>
+				
+					<div class="intro_phone fs-cell fs-sm-hide fs-md-3 fs-lg-6"><img src="images/intro_phone.png" alt="phone screen">
+					</div>	
+				
 			</div>
 		</header>
 		<div class="options fs-row">
@@ -80,17 +81,31 @@
 			</p>
 		</div>
 
-		<footer class="fs-row">
-			<div class="fs-cell fs-lg-full footer_box">
-				<p class="legal">
-				<a href="#" class="support">Support</a>
-				<a href="#" class="privacy">Privacy & Terms</a>
-				<a href="#" class="copyright">&copy; 2014 PicticiousPro</a></div>
+		<footer class="fs-row  fs-lg-full footer_box">
+
+		<div class="fs-cell-right fs-sm-3 fs-md-3 fs-lg-half">
+				<p class="social_links">
+					<a href="#" class="social facebook">Support</a>
+					<a href="#" class="social twitter">Privacy & Terms</a>
+					<a href="#" class="social google_plus">&copy; 2014 PicticiousPro</a></div>
 				</p>
 			</div>
+
+			<div class="fs-cell fs-sm-3 fs-md-3 fs-lg-half">
+				<p class="legal">
+					<a href="#" class="support">Support</a>
+					<a href="#" class="privacy">Privacy & Terms</a>
+					<a href="#" class="copyright">&copy; 2014 PicticiousPro</a>
+				</p>
+			</div>
+
 			
 		</footer>
 
+		<script src="js/carousel.js"></script>
+		<script src="js/core.js"></script>
+		<script src="js/mediaquery.js"></script>
+		<script src="js/touch.js"></script>
 
 		<script>
 			(function(){if(typeof FSGridBookmarklet==='undefined'){document.body.appendChild(document.createElement('script')).src=‘https://formstone.it/js/bookmarklet/grid.js';}else{FSGridBookmarklet();}})();
