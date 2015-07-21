@@ -203,7 +203,7 @@
   visibility: hidden;
   width: 40px;
   height: 40px;
-  background: #ffffff;
+  background: red;
   border-radius: 100%;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
   margin: auto;
@@ -236,19 +236,25 @@
   left: 20px;
 }
 .fs-carousel-enabled .fs-carousel-control_previous:before {
-  border-top: 7px solid transparent;
-  border-bottom: 7px solid transparent;
-  border-right: 10.5px solid #333333;
-  margin-left: 13.7px;
+  content: '';
+  background-image: url(../images/arrowleft.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 20px;
 }
 .fs-carousel-enabled .fs-carousel-control_next {
   right: 20px;
 }
 .fs-carousel-enabled .fs-carousel-control_next:before {
-  border-top: 7px solid transparent;
-  border-bottom: 7px solid transparent;
-  border-left: 10.5px solid #333333;
-  margin-right: 13.7px;
+  content: '';
+  background-image: url(../images/arrowright.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 20px;
 }
 .fs-carousel-enabled .fs-carousel-control_disabled {
   opacity: 0;
