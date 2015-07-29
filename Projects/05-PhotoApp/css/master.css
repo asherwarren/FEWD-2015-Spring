@@ -96,6 +96,14 @@ p {
 	margin-right: auto;
 }
 
+.slideshow_thumbnail {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height:70px;
+	width:70px;
+}
+
 .niceshottext {
 	font-size: 20px;
 	font-weight: 100;
@@ -117,6 +125,10 @@ p {
 	border-radius: 5px;
 	margin-top: 10px;
 	display: inline-block;
+	opacity: 0.75;
+	-webkit-transition: opacity .5s ease, padding .5s ease;
+	-moz-transition: opacity .5s ease, padding .5s ease;
+	transition: opacity .5s ease, padding .5s ease;
 }
 
 .download_button:visited {
@@ -129,8 +141,8 @@ p {
 }
 
 .download_button:hover {
-	color: #fff;
-	background-color: #e77e04;
+	opacity: 1;
+	padding: 30px;
 }
 
 @media screen and (max-width: 979px){
@@ -146,6 +158,10 @@ p {
 	.subheader {
 		text-align: center;
 	}
+	.slideshow_thumbnail {
+	height:50px;
+	width:50px;
+}
 }
 
 /* Three Items */
@@ -284,7 +300,14 @@ h5 {
 	background-image: url(../images/icon_sprite.png);
 	background-repeat: no-repeat;
 	text-align: center;
+	margin: 10px;
+	box-shadow: 0 0 0px 0px rgba(0, 0, 0, .3);
+	transition: box-shadow .4s ease;
 
+}
+
+.download_devices:hover {
+	box-shadow: 0 0 12px 9px rgba(0, 0, 0, .3);
 }
 
 .download_apple {

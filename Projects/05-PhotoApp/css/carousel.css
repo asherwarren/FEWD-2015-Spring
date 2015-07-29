@@ -110,6 +110,7 @@
 		 * @description Indicates active state
 		 */
 }
+/
 .fs-carousel.fs-carousel-enabled {
   width: 100%;
   position: relative;
@@ -183,6 +184,7 @@
       -ms-user-select: none;
           user-select: none;
 }
+
 .fs-carousel-controls {
   display: none;
 }
